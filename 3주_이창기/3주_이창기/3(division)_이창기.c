@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int idx,n,sum=0,arr[1000]={0};
+int cnt = 0;
 
 void DFS(int depth) {
 	if (depth > n) {
@@ -9,13 +10,14 @@ void DFS(int depth) {
 		for (int j = 1; j < depth; j++) {
 			sum = sum + arr[j];
 			if (sum == n) {
-				j = idx;
+				idx = j;
 			}
 		}
 		if (idx != 0) {
 			for (int k = 1; k <= idx; k++) {
 				printf("%d+", arr[k]);
 			}
+			cnt++;
 			printf("\b \n");
 		}
 		sum = 0;
@@ -32,7 +34,7 @@ void DFS(int depth) {
 int main(void) {
 	scanf("%d", &n);
 	DFS(1);
-
+	printf("%d", cnt);
 	return 0;
 }
 

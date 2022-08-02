@@ -27,5 +27,23 @@
     <ClCompile Include="4(tobin)_이창기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5(inequal)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6(이진탐색)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7(숫자 개수 세기)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8(나무 자르기)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9(NN단표)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11(중복 없는 구간)_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
